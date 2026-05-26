@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cordon Beauty Bar | Book Online</title>
+  <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body id="page-body">
+
+  <!-- Header -->
+  <header id="main-header">
+    <div class="header-container">
+      <img src="../cordon images/LOGO.jpeg" alt="LOGO" class="logo-left">
+      <nav id="navbar">
+        <a href="../index.html" class="nav-link">Home</a>
+           <a href="./About.html" class="nav-link">About</a>
+        <a href="./Services.html" class="nav-link active">Services</a>
+        <a href="./Pricelist.html" class="nav-link">Price List</a>
+        <a href="./Testimonials.html" class="nav-link">Testimonials</a>
+        <a href="./Contact.html" class="nav-link">Contact</a>
+        <a href="./Book-online.html" class="nav-link button">Book Online</a>
+      </nav>
+    </div>
+    <hr class="divider">
+  </header>
+  <!-- Booking Hero -->
+   <section id="hero">
+  <div class="hero-background" style="background-image: url('../cordon images/cordon11.jpg');">
+      <div class="hero-overlay">
+        <div class="hero-content">
+          <h2 class="hero-title">Book Your Appointment</h2>
+        <p class="hero-text">Choose your service, select a date, and pay securely online. Pampering yourself has never been easier.</p>
+      </div>
+      </div>
+    </div>
+  </section>
+  <!-- Booking Form -->
+  <section id="booking-section">
+    <h2 class="section-title">Appointment Details</h2>
+    <form id="booking-form" class="form-container">
+      <select id="service" class="form-input" required>
+        <option value="">Select a Service</option>
+        <option value="nails">Nails</option>
+        <option value="skincare">Skincare</option>
+        <option value="lashes">Lashes & Brows</option>
+        <option value="massage">Massage</option>
+        <option value="hair">Hair Treatments</option>
+      </select>
+
+      <input type="date" id="date" class="form-input" required>
+      <input type="time" id="time" class="form-input" required>
+      <input type="text" id="name" class="form-input" placeholder="Your Name" required>
+      <input type="email" id="email" class="form-input" placeholder="Your Email" required>
+      <input type="tel" id="phone" class="form-input" placeholder="Your Phone Number" required>
+    </form>
+  </section>
+
+  <!-- Payment Gateway -->
+  <section id="payment-section">
+    <h2 class="section-title">Secure Payment</h2>
+    <form id="payment-form" class="form-container">
+      <input type="text" id="card-name" class="form-input" placeholder="Name on Card" required>
+      <input type="text" id="card-number" class="form-input" placeholder="Card Number" maxlength="16" required>
+      <div class="payment-row">
+        <input type="text" id="expiry" class="form-input" placeholder="MM/YY" maxlength="5" required>
+        <input type="text" id="cvv" class="form-input" placeholder="CVV" maxlength="3" required>
+      </div>
+      <button type="submit" class="cta-button">Pay & Confirm Booking</button>
+    </form>
+    <p class="payment-note">Your payment is processed securely. We accept Visa, MasterCard, and major debit cards.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <p class="footer-text">📍 10 Butterfield Cres, Fairview, Cape Town</p>
+    <p class="footer-text">📧 <a href="mailto:info@cordonbeauty.co.za" class="footer-link">info@cordonbeauty.co.za</a></p>
+    <p class="footer-text">📞 <a href="tel:+27213566776" class="footer-link">+27 21 356 6776</a></p>
+    <p class="footer-text">Open Now · 9am – 6pm</p>
+  </footer>
+
+</body>
+</html>
